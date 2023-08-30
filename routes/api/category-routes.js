@@ -45,7 +45,7 @@ router.put('/:id', async (req, res) => {
     });
 
     if (!productData) {
-      res.status(404).json({ message: 'No location found with this id!' });
+      res.status(404).json({ message: 'No category found with this id!' });
       return;
     }
 
@@ -57,14 +57,14 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   try {
-    const productData = await Location.destroy({
+    const productData = await Category.destroy({
       where: {
         id: req.params.id
       }
     });
 
     if (!productData) {
-      res.status(404).json({ message: 'No location found with this id!' });
+      res.status(404).json({ message: 'No category found with this id!' });
       return;
     }
 
