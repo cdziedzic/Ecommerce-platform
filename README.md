@@ -3,7 +3,7 @@
 ## Project Description
 An app to help an ecommerce business manage their inventory. The user app contains a database of products, categories and tags. The user can use the database to find info on their inventory and manage(create/delete) products, categories or tags.
 
-Preview video: https://watch.screencastify.com/v/Ty3wDsF67jzSMaPuIcFj
+Preview video: https://watch.screencastify.com/v/KuoZyptaikO4TPUFNvlJ
 
 Github: https://github.com/cdziedzic/Ecommerce-platform
 
